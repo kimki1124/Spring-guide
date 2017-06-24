@@ -277,7 +277,7 @@ Gradle 또는 Maven을 사용하여 명령 줄에서 응용 프로그램을 실�
 
 ![maven_build_2](http://i.imgur.com/7Kftm8I.jpg)
 
-3. 프로젝트의 target 폴더 하위에 gs-rest-webservice-0.1.0.jar 파일이 생성된 것을 확인합니다.
+3. 프로젝트의 target 폴더 하위에 jar 파일이 생성된 것을 확인합니다.
 
 ![maven_build_3](http://i.imgur.com/ZgxeTRh.jpg)
 
@@ -302,6 +302,10 @@ Gradle 또는 Maven을 사용하여 명령 줄에서 응용 프로그램을 실�
 ![result](http://i.imgur.com/CPuKNzy.jpg)
 
 http://localhost:8080/greeting?name=User와 함께 이름 쿼리 문자열 매개 변수를 제공하십시오. content 속성의 값이 "Hello, World!"에서 어떻게 변경되는지 주목하십시오. "Hello, User!"
+
+~~~json
+{"id":2,"content":"Hello, User!"}
+~~~
 
 ![result2](http://i.imgur.com/ycDLQ1v.jpg)
 
