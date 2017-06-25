@@ -14,7 +14,7 @@ Spring의 RestTemplate을 사용하여 http://gturnquist-quoters.cfapps.io/api/r
 ## 이 가이드를 완료하는 방법
 대부분의 Spring Getting Started 가이드와 마찬가지로, 처음부터 시작하여 각 단계를 완료하거나 이미 익숙한 기본 설정 단계를 건너 뛸 수 있습니다. 어쨌든, 당신은 working code로 끝납니다.
 
-##### 처음부터 시작하려면 'Maven으로 빌드'로 이동하십시오.
+##### 처음부터 시작하려면 '이클립스를 사용해서 프로젝트 만들기'로 이동하십시오.
 
 ##### 기본 사항을 건너 뛰려면 다음을 수행하십시오.
 이 가이드의 소스 저장소를 다운로드하고 압축을 해제하거나 Git을 사용하여 복제합니다. git clone https://github.com/spring-guides/gs-consuming-rest.git
@@ -128,7 +128,7 @@ REST 웹 서비스를 사용하는 보다 유용한 방법은 프로그래밍 �
 
 ![4](http://i.imgur.com/t2JmCXy.jpg)
 
-3. Greeting.java 파일에 다음과 같이 소스 작성
+3. Quote.java 파일에 다음과 같이 소스 작성
 ~~~java
 package hello;
 
